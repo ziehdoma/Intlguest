@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: 
+  bio: MyText
+  school: MyString
+  language: MyString
+  zipcode: 1
+  smoker: false
+
+two:
+  name: 
+  bio: MyText
+  school: MyString
+  language: MyString
+  zipcode: 1
+  smoker: false

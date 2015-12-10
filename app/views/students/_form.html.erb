@@ -1,0 +1,18 @@
+<%= form_for  @student, url: student_form_path(@student) do |f| %>
+
+    <%= f.label :name %>
+    <%= f.text_field :name %></br>
+
+    <%= f.label :school %>
+    <%= f.text_field :school%></br>
+
+    <%= f.label :language %>
+    <%= f.text_field :language %></br>
+
+
+    <%= f.label :bio %>
+    <%= f.text_area :bio %></br>
+
+    <%= f.submit :submit %>
+
+<% end %>
